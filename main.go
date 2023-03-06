@@ -201,10 +201,6 @@ func (g *Game) Draw(screen *ebiten.Image) {
 
 }
 
-func (g *Game) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeight int) {
-	return outsideWidth, outsideHeight
-}
-
 func main() {
 	var (
 		rectHeight = 150
